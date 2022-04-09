@@ -20,7 +20,7 @@ The heatmap is used to represent the difference between the values.
 
 
 # CODE
-
+```
 import pandas pd
 import numpy as np
 import seaborn as sns
@@ -51,6 +51,7 @@ pd.crosstab(df["Pclass"],df["Survived"])
 pd.crosstab(df["sex"],df["Survived"])
 df.corr()
 sns.heatmap(df.corr(),annot=True)
+```
 # OUPUT
 ![Output](.//img1.png)
 ![Output](.//img2.png)
